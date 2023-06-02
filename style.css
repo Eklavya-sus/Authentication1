@@ -49,7 +49,7 @@ body{
     border: 3rem solid rgb(0 0 0 / 10%);
   }
   
-  /* the magic */
+  
   #grid {
     transition: 300ms;
     display: grid;
@@ -59,7 +59,7 @@ body{
   #grid:has(#left:hover) {
     grid-template-columns: 30% auto;
   }
-  /* magic + CSS variable */
+  
   #grid {
     transition: 300ms;
     display: grid;
